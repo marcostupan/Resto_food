@@ -40,6 +40,7 @@ document.querySelector("#close").onclick = () =>{
 }
 
 var swiper = new Swiper(".home-slider", {
+    slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
